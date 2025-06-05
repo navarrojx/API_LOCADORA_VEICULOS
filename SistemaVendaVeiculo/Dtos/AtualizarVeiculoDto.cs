@@ -1,0 +1,12 @@
+﻿namespace SistemaVendaVeiculo.Dtos
+{
+    public class AtualizarVeiculoDto
+    {
+        public string Modelo { get; set; }
+        public int AnoFabricacao { get; set; }
+        public int Quilometragem { get; set; }
+        public string Cor { get; set; }
+        public string Placa { get; set; }
+        public string TipoCombustivel { get; set; }
+    }
+}
