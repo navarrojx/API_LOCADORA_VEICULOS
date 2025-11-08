@@ -4,7 +4,8 @@ using SistemaVendaVeiculo.Model;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace SistemaDeVendaDeVeiculo
+namespace SistemaVendaVeiculo.Model
+
 {
     public class Cliente
 {

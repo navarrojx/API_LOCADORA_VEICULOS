@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace SistemaDeVendaDeVeiculo
+namespace SistemaVendaVeiculo.Model
 {
     public class Fabricante
     {

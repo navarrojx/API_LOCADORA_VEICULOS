@@ -1,4 +1,4 @@
-﻿using SistemaDeVendaDeVeiculo;
+﻿using SistemaVendaVeiculo;
 using SistemaVendaVeiculo.Model;
 
 namespace SistemaVendaVeiculo.Dtos

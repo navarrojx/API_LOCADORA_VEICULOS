@@ -1,4 +1,4 @@
-﻿using SistemaDeVendaDeVeiculo;
+﻿using SistemaVendaVeiculo;
 using Microsoft.EntityFrameworkCore;
 using SistemaVendaVeiculo.Dtos;
 using System;
@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.HttpResults;
+using SistemaVendaVeiculo.Model;
+
 
 namespace SistemaVendaVeiculo.Service
 {

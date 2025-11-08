@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaVendaVeiculo.Service;
 using SistemaVendaVeiculo.Dtos;
-using SistemaDeVendaDeVeiculo;
+using SistemaVendaVeiculo;
 using System;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
+using SistemaVendaVeiculo.Model;
 
 
 namespace SistemaVendaVeiculo.Controllers

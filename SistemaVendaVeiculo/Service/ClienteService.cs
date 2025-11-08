@@ -1,6 +1,6 @@
 ﻿using SistemaVendaVeiculo.Model;
 using SistemaVendaVeiculo.Dtos;
-using SistemaDeVendaDeVeiculo;
+using SistemaVendaVeiculo;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

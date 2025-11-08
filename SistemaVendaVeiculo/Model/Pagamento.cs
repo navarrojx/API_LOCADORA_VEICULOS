@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using SistemaVendaVeiculo.Model;
 
-namespace SistemaVendaVeiculo
+namespace SistemaVendaVeiculo.Model
 {
     public enum MetodoPagamento
     {

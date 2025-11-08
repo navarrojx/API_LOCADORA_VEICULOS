@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using SistemaDeVendaDeVeiculo;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

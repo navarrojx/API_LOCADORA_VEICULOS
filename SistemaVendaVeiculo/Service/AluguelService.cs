@@ -1,4 +1,4 @@
-﻿using SistemaDeVendaDeVeiculo;
+﻿using SistemaVendaVeiculo;
 using SistemaVendaVeiculo.Model;
 using Microsoft.EntityFrameworkCore;
 using SistemaVendaVeiculo.Dtos;

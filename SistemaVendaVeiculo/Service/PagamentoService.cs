@@ -1,7 +1,7 @@
 ﻿using SistemaVendaVeiculo.Model;
 using SistemaVendaVeiculo.Dtos;
 using Microsoft.EntityFrameworkCore;
-using SistemaDeVendaDeVeiculo;
+using SistemaVendaVeiculo;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

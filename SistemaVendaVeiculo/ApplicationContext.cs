@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SistemaDeVendaDeVeiculo;
+using SistemaVendaVeiculo;
 using SistemaVendaVeiculo.Model;
 
 namespace SistemaVendaVeiculo

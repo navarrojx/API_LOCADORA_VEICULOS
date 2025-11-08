@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Júlio Navarro\\source\\repos\\SistemaVendaVeiculo\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj": {}
+    "C:\\Users\\julio.navarro\\API_LOCADORA_VEICULOS\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Júlio Navarro\\source\\repos\\SistemaVendaVeiculo\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj": {
+    "C:\\Users\\julio.navarro\\API_LOCADORA_VEICULOS\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Júlio Navarro\\source\\repos\\SistemaVendaVeiculo\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj",
+        "projectUniqueName": "C:\\Users\\julio.navarro\\API_LOCADORA_VEICULOS\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj",
         "projectName": "SistemaVendaVeiculo",
-        "projectPath": "C:\\Users\\Júlio Navarro\\source\\repos\\SistemaVendaVeiculo\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj",
-        "packagesPath": "C:\\Users\\Júlio Navarro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Júlio Navarro\\source\\repos\\SistemaVendaVeiculo\\SistemaVendaVeiculo\\obj\\",
+        "projectPath": "C:\\Users\\julio.navarro\\API_LOCADORA_VEICULOS\\SistemaVendaVeiculo\\SistemaVendaVeiculo.csproj",
+        "packagesPath": "C:\\Users\\julio.navarro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julio.navarro\\API_LOCADORA_VEICULOS\\SistemaVendaVeiculo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Júlio Navarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\julio.navarro\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
@@ -60,31 +54,39 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.1, )"
             },
-            "Microsoft.Extensions.Logging": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -104,7 +106,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -118,6 +120,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -126,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
